@@ -71,10 +71,11 @@ class Banner extends React.Component {
             className={`banner-image ${this.state.animate ? "banner-fade-animate" : ""}`}
             style={
               activeBannerUrl && {
-                backgroundImage: `url(${activeBannerUrl})`,
+                // backgroundImage: `url(${activeBannerUrl})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                backgroundRepeat: "no-repeat"
+                backgroundRepeat: "no-repeat",
+                background: "linear-gradient(to left, #05ae70, #155cd1 105%)"
               }
             }
           >
