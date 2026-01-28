@@ -25,3 +25,9 @@
   input[type="date" i] {
     cursor: pointer;
   }
+
+  @media (max-width: 768px){
+    .footer-new-style {
+      display: none !important;
+    }
+  }
