@@ -23,7 +23,7 @@
   align-items: center !important;
 }
 
-.citizen-header-logo > img {
+.citizen-header-logo>img {
   width: 40px;
   height: 49px;
 }
@@ -33,6 +33,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
   .app-toolbar,
   .citizen-header-logo,
   .appbar-right-logo,
@@ -44,15 +45,23 @@
     display: none !important;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .appbar-title-label {
     display: none !important;
   }
+
   .notification-icon-mobile {
     display: none !important;
   }
 
   .notification-icon-web {
     margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-h3 {
+    display: none;
   }
 }

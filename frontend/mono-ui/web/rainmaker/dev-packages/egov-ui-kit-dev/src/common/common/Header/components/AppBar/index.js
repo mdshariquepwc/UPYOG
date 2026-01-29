@@ -60,7 +60,7 @@ const EgovAppBar = ({
             <div className="citizen-header-logo" style={{ width: "44px", height: "47px" }}>
               {<img style={{ width: "45px", height: "45px", transform: "translateY(-2px)" }} src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" />}
             </div>
-            <LabelContainer style={{ marginLeft: "0px", color: "#00599F", fontWeight: 700, fontSize: "16px" }} className="screenHeaderLabelStyle appbar-title-label" labelKey={title}/>
+            <LabelContainer style={{ marginLeft: "12px", color: "#FFFFFF", fontWeight: 700, fontSize: "16px" }} className="screenHeaderLabelStyle appbar-title-label" labelKey={title}/>
             {titleAddon && (
               <Label
                 containerStyle={{ display: "inline-block", marginLeft: 5 }}
